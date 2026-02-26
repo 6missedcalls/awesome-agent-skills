@@ -4,7 +4,7 @@
 
 ### **Supercharge your AI coding agent with production-ready skills**
 
-[![Skills](https://img.shields.io/badge/skills-6-blueviolet?style=for-the-badge)](#skills)
+[![Skills](https://img.shields.io/badge/skills-7-blueviolet?style=for-the-badge)](#skills)
 [![Tools](https://img.shields.io/badge/total_tools-100+-brightgreen?style=for-the-badge)](#skills)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](#license)
 [![Platform](https://img.shields.io/badge/platform-Claude_Code_%7C_Codex_%7C_OpenClaw-orange?style=for-the-badge)](#compatibility)
@@ -46,6 +46,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 
 | Skill | Description | Tools | Links |
 |:------|:------------|:-----:|:-----:|
+| [**Video Editing Skill**](#-video-editing-skill) | Trim, jump cut, caption (Hormozi/standard/minimal), text overlay, and speed change videos using FFmpeg + Whisper | 6 scripts | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/video-editing-skill) |
 | [**Revid Skill**](#-revid-skill) | Revid API V2 automation for AI video creation, rendering, publishing, and media workflows | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/revid-skill) |
 
 ### Presentations & Docs
@@ -101,6 +102,29 @@ Foundation Layer
 - **Market Intelligence** — Company news, SEC filings, analyst recommendations, FRED economic data, BLS labor stats
 - **Social Sentiment** — StockTwits bull/bear scores, X/Twitter cashtag analysis, congressional trading disclosures
 - **Guardrails** — Policy engine gates all side-effecting actions, approval-required for live trades
+
+---
+
+### ✂️ Video Editing Skill
+
+> **6 Bash scripts** for local video editing powered by FFmpeg and Whisper
+
+[![Repo](https://img.shields.io/badge/GitHub-video--editing--skill-181717?logo=github)](https://github.com/6missedcalls/video-editing-skill)
+
+Edit videos with natural language — trim, remove silence, burn captions, add text overlays, and adjust speed. Pure Bash, zero runtime dependencies beyond FFmpeg and Whisper. Used and tested with OpenClaw.
+
+**Key Capabilities:**
+- **Trimming** — Cut to start/end timestamps with fast codec copy
+- **Jump Cuts** — Auto-detect and remove silence with configurable thresholds
+- **Captions** — Transcribe with Whisper, then burn in Hormozi, standard, or minimal style
+- **Text Overlays** — Add positioned text at specific timestamps (7 positions)
+- **Speed Changes** — Pitch-corrected playback speed adjustment
+- **Pipeline** — Chain all operations in a single command via `edit.sh`
+
+```bash
+bash scripts/edit.sh video.mp4 \
+  --jumpcut --caption --caption-style hormozi --speed 1.25
+```
 
 ---
 
