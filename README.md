@@ -216,6 +216,31 @@ Built for the emerging WebMCP standard (Chrome 146+). Instead of brittle CSS sel
 - **Structured Invocation** — Call tools with typed parameters, get structured responses
 - **No Scraping** — Works through the site's declared API surface, not fragile DOM traversal
 
+
+### 🚀 gtm-skills
+
+> **189 playbooks across 26 categories** — production-ready GTM playbooks for AI agents
+
+[![Repo](https://img.shields.io/badge/GitHub-gtm--skills-181717?logo=github)](https://github.com/LeadMagic/gtm-skills/) | [![Website](https://img.shields.io/badge/Website-leadmagic.io-blue)](https://leadmagic.io/gtm-skills)
+
+A comprehensive library of open-source go-to-market playbooks designed for AI agents. Covers the full GTM spectrum from marketing and sales to customer success and revenue operations.
+
+**Key Capabilities:**
+- **Marketing** — Content marketing, SEO, social media, email campaigns, paid acquisition
+- **Sales** — Prospecting, outreach, pipeline management, closing techniques
+- **Customer Success** — Onboarding, retention, expansion, NPS optimization
+- **Revenue Operations** — Analytics, forecasting, process automation, tooling
+
+**Compatibility:** Claude Code, Codex, Cursor, GitHub Copilot, and 12+ agent platforms.
+
+---
+
+### Marketing & GTM
+
+| Skill | Description | Tools | Links |
+|:------|:------------|:-----:|:-----:|
+| [**gtm-skills**](#-gtm-skills) | 189+ open-source GTM playbooks for AI agents across marketing, sales, customer success, and revenue operations across 26 categories | 189 playbooks | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/LeadMagic/gtm-skills/) |
+
 ---
 
 ## Quick Start
