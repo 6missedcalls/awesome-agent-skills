@@ -68,6 +68,12 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**WebMCP Skill**](#-webmcp-skill) | Interact with WebMCP-enabled websites via the W3C standard (Chrome 146+) — no DOM scraping, just structured JSON tools | Discovery + Invoke | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/openclaw-webmcp-skill) |
 
+### Marketing & SEO
+
+| Skill | Description | Tools | Links |
+|:------|:------------|:-----:|:-----:|
+| [**NotFair**](#-notfair) | Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads — connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP | [seo/](https://github.com/nowork-studio/NotFair/tree/main/seo) · [google-ads/](https://github.com/nowork-studio/NotFair/tree/main/google-ads) · [meta-ads/](https://github.com/nowork-studio/NotFair/tree/main/meta-ads) | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/nowork-studio/NotFair) |
+
 ---
 
 ## Skill Details
@@ -215,6 +221,21 @@ Built for the emerging WebMCP standard (Chrome 146+). Instead of brittle CSS sel
 - **Tool Discovery** — Enumerate tools registered by WebMCP-enabled sites
 - **Structured Invocation** — Call tools with typed parameters, get structured responses
 - **No Scraping** — Works through the site's declared API surface, not fragile DOM traversal
+
+---
+
+### 📈 NotFair
+
+> **Open-source Claude Code skills** for SEO, GEO, Google Ads, and Meta Ads
+
+[![Repo](https://img.shields.io/badge/GitHub-nowork--studio%2FNotFair-181717?logo=github)](https://github.com/nowork-studio/NotFair)
+
+A collection of agent skills that connects Claude Code to live marketing data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. Each skill area is a standalone folder.
+
+**Skill Areas:**
+- **[seo/](https://github.com/nowork-studio/NotFair/tree/main/seo)** — Site analysis, keyword research, meta tags, schema markup, GEO optimization, content writing
+- **[google-ads/](https://github.com/nowork-studio/NotFair/tree/main/google-ads)** — Account audits, wasted-spend detection, search-term cleanup, keyword and bid management
+- **[meta-ads/](https://github.com/nowork-studio/NotFair/tree/main/meta-ads)** — Meta (Facebook + Instagram) Ads: ROAS analysis, creative fatigue detection, audience overlap
 
 ---
 
