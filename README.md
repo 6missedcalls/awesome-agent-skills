@@ -4,7 +4,7 @@
 
 ### **Supercharge your AI coding agent with production-ready skills**
 
-[![Skills](https://img.shields.io/badge/skills-7-blueviolet?style=for-the-badge)](#skills)
+[![Skills](https://img.shields.io/badge/skills-8-blueviolet?style=for-the-badge)](#skills)
 [![Tools](https://img.shields.io/badge/total_tools-100+-brightgreen?style=for-the-badge)](#skills)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](#license)
 [![Platform](https://img.shields.io/badge/platform-Claude_Code_%7C_Codex_%7C_OpenClaw-orange?style=for-the-badge)](#compatibility)
@@ -61,6 +61,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Fireflies Skill**](#-fireflies-skill) | Search, summarize, and query Fireflies.ai meeting transcripts via GraphQL API | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/fireflies-skill) |
 | [**ERPNext Skill**](#-erpnext-skill) | Comprehensive Frappe Framework & ERPNext v15 development reference with full API docs across 14+ modules | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/erpnext-skill) |
+| [**ax-extract-workflow Skill**](#-ax-extract-workflow-skill) | Reconstruct how shipped artifacts came together from local ax sessions, commits, skills, and subagent activity | CLI + DB | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/Necmttn/ax) |
 
 ### Web & Protocols
 
@@ -200,6 +201,28 @@ Gives your agent full context on the Frappe Framework — DocTypes, controllers,
 - **Core Framework** — Document API, Database API, Controllers, Hooks, REST API, Form Scripts, Testing
 - **14+ Modules** — Accounting, Stock/Inventory, Manufacturing, CRM, HR & Payroll, and more
 - **Patterns** — Common integration patterns, background job architecture, custom app scaffolding
+
+---
+
+### 🧭 ax-extract-workflow Skill
+
+> **Workflow reconstruction** — recover how a PR, feature, or demo was actually shipped
+
+[![Repo](https://img.shields.io/badge/GitHub-Necmttn%2Fax-181717?logo=github)](https://github.com/Necmttn/ax)
+
+Uses the local ax graph to reconstruct the workflow behind a shipped artifact, grounding the answer in recorded sessions, commits, skill usage, and subagent activity.
+
+**Key Capabilities:**
+- **Session Recall** — Finds relevant sessions near a date, topic, or commit SHA
+- **Skill Arc Reconstruction** — Orders the skills and subagents that shaped the work
+- **Evidence-Based Workflow Notes** — Turns recorded session evidence into repeatable workflow notes
+- **Local-First Data** — Reads from your own ax/SurrealDB instance, not a hosted service
+
+**Requirements:** `ax`/`axctl`, a running local SurrealDB, and an indexed ax graph.
+
+**Skill Path:** [`skills/ax-extract-workflow`](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow)
+
+**License:** AGPLv3.
 
 ---
 
