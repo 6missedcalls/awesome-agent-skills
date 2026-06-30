@@ -4,7 +4,7 @@
 
 ### **Supercharge your AI coding agent with production-ready skills**
 
-[![Skills](https://img.shields.io/badge/skills-7-blueviolet?style=for-the-badge)](#skills)
+[![Skills](https://img.shields.io/badge/skills-8-blueviolet?style=for-the-badge)](#skills)
 [![Tools](https://img.shields.io/badge/total_tools-100+-brightgreen?style=for-the-badge)](#skills)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](#license)
 [![Platform](https://img.shields.io/badge/platform-Claude_Code_%7C_Codex_%7C_OpenClaw-orange?style=for-the-badge)](#compatibility)
@@ -61,6 +61,12 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Fireflies Skill**](#-fireflies-skill) | Search, summarize, and query Fireflies.ai meeting transcripts via GraphQL API | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/fireflies-skill) |
 | [**ERPNext Skill**](#-erpnext-skill) | Comprehensive Frappe Framework & ERPNext v15 development reference with full API docs across 14+ modules | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/erpnext-skill) |
+
+### Social & X/Twitter
+
+| Skill | Description | Tools | Links |
+|:------|:------------|:-----:|:-----:|
+| [**TweetClaw Skill**](#tweetclaw-skill) | OpenClaw skill/plugin for X/Twitter search, replies, follower export, media workflows, monitors, webhooks, giveaway draws, and approval-gated posting | 40+ tools | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/Xquik-dev/tweetclaw) |
 
 ### Web & Protocols
 
@@ -218,6 +224,30 @@ Built for the emerging WebMCP standard (Chrome 146+). Instead of brittle CSS sel
 
 ---
 
+### TweetClaw Skill
+
+> **40+ OpenClaw tools** for reviewed X/Twitter workflows
+
+[![Repo](https://img.shields.io/badge/GitHub-tweetclaw-181717?logo=github)](https://github.com/Xquik-dev/tweetclaw)
+
+TweetClaw gives OpenClaw agents a reviewed interface for X/Twitter work: search
+tweets and replies, scrape public search results, export followers, look up users,
+handle media, monitor tweets, deliver webhooks, run giveaway draws, and request
+approval before posting tweets or replies.
+
+**Key Capabilities:**
+- **Search & Discovery** — Tweet search, reply search, public search scraping, and user lookup
+- **Audience Workflows** — Follower export, monitor polling, webhook delivery, and media handling
+- **Campaign Utilities** — Giveaway draws, analytics-friendly results, and repeatable examples
+- **Approval Gates** — Write actions require explicit review before posting
+- **OpenClaw Install** — Available as the `@xquik/tweetclaw` npm plugin
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
+
+---
+
 ## Quick Start
 
 ### Claude Code
@@ -261,7 +291,7 @@ Contributions welcome. If you'd like to add a skill to this list:
 
 ## License
 
-All skills in this collection are released under the [MIT License](LICENSE) unless otherwise noted.
+All skills in this collection are released under the MIT License unless otherwise noted.
 
 ---
 
