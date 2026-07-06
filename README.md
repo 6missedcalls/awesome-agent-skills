@@ -4,7 +4,7 @@
 
 ### **Supercharge your AI coding agent with production-ready skills**
 
-[![Skills](https://img.shields.io/badge/skills-7-blueviolet?style=for-the-badge)](#skills)
+[![Skills](https://img.shields.io/badge/skills-10-blueviolet?style=for-the-badge)](#skills)
 [![Tools](https://img.shields.io/badge/total_tools-100+-brightgreen?style=for-the-badge)](#skills)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](#license)
 [![Platform](https://img.shields.io/badge/platform-Claude_Code_%7C_Codex_%7C_OpenClaw-orange?style=for-the-badge)](#compatibility)
@@ -67,6 +67,14 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 | Skill | Description | Tools | Links |
 |:------|:------------|:-----:|:-----:|
 | [**WebMCP Skill**](#-webmcp-skill) | Interact with WebMCP-enabled websites via the W3C standard (Chrome 146+) — no DOM scraping, just structured JSON tools | Discovery + Invoke | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/openclaw-webmcp-skill) |
+
+### AI Gateways & Routing
+
+| Skill | Description | Tools | Links |
+|:------|:------------|:-----:|:-----:|
+| [**RouterBase API Integration Skill**](#-routerbase-api-integration-skill) | Integrate applications with [routerbase](https://routerbase.com/) as an OpenAI-compatible model gateway | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/zenlee123/routerbase-agent-skills) |
+| [**RouterBase Model Routing Skill**](#-routerbase-model-routing-skill) | Design [routerbase](https://routerbase.com/) model routing, fallback, cost, and latency policies | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/zenlee123/routerbase-agent-skills) |
+| [**RouterBase Media Generation Skill**](#-routerbase-media-generation-skill) | Build [routerbase](https://routerbase.com/) image, audio, and video generation workflows | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/zenlee123/routerbase-agent-skills) |
 
 ---
 
@@ -215,6 +223,51 @@ Built for the emerging WebMCP standard (Chrome 146+). Instead of brittle CSS sel
 - **Tool Discovery** — Enumerate tools registered by WebMCP-enabled sites
 - **Structured Invocation** — Call tools with typed parameters, get structured responses
 - **No Scraping** — Works through the site's declared API surface, not fragile DOM traversal
+
+---
+
+### 🔀 RouterBase API Integration Skill
+
+> **OpenAI-compatible gateway integration** for [routerbase](https://routerbase.com/)
+
+[![Repo](https://img.shields.io/badge/GitHub-routerbase--agent--skills-181717?logo=github)](https://github.com/zenlee123/routerbase-agent-skills)
+
+Helps agents migrate OpenAI-compatible SDK calls to RouterBase, configure `https://routerbase.com/v1`, implement streaming/tool-calling/JSON-mode examples, and keep API keys server-side.
+
+**Key Capabilities:**
+- **SDK Migration** — Python, JavaScript, curl, LangChain, LlamaIndex, Vercel AI SDK, Cursor, Continue
+- **Safe Configuration** — base URL, model IDs, local environment variables, and redacted logs
+- **Validation** — test requests, response-shape checks, timeouts, and error handling
+
+---
+
+### 🧭 RouterBase Model Routing Skill
+
+> **Model selection and fallback planning** for [routerbase](https://routerbase.com/)
+
+[![Repo](https://img.shields.io/badge/GitHub-routerbase--agent--skills-181717?logo=github)](https://github.com/zenlee123/routerbase-agent-skills)
+
+Turns workload requirements into a model shortlist, fallback chain, cost and latency policy, and rollout checklist for OpenAI-compatible agent workflows.
+
+**Key Capabilities:**
+- **Model Selection** — primary, economical fallback, high-quality fallback, and specialized fallback roles
+- **Routing Policies** — latency budgets, cost ceilings, context needs, quality thresholds, and outage handling
+- **Rollout Checks** — golden prompts, logging, retry policy, rate limits, and rollback criteria
+
+---
+
+### 🎬 RouterBase Media Generation Skill
+
+> **Image, audio, and video generation workflows** through [routerbase](https://routerbase.com/)
+
+[![Repo](https://img.shields.io/badge/GitHub-routerbase--agent--skills-181717?logo=github)](https://github.com/zenlee123/routerbase-agent-skills)
+
+Guides agents through RouterBase media endpoints, provider assumptions, prompt shaping, sync/async responses, retries, polling, asset handling, and safety checks.
+
+**Key Capabilities:**
+- **Media Endpoints** — image, audio, speech, and video generation workflow planning
+- **Operational Handling** — retries, polling, failed jobs, output URLs, and asset retention
+- **Safety Review** — private data, prompt constraints, content rights, moderation, and external publishing checks
 
 ---
 
