@@ -62,6 +62,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 | [**Fireflies Skill**](#-fireflies-skill) | Search, summarize, and query Fireflies.ai meeting transcripts via GraphQL API | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/fireflies-skill) |
 | [**ERPNext Skill**](#-erpnext-skill) | Comprehensive Frappe Framework & ERPNext v15 development reference with full API docs across 14+ modules | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/erpnext-skill) |
 
+| [**linkedin-growth**](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth) | Import leads from LinkedIn or Sales Navigator searches, qualify them against an ideal-customer profile, schedule safe connection invites across accounts, track acceptances, and withdraw stale pending requests. | Skill | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth) |
 ### Web & Protocols
 
 | Skill | Description | Tools | Links |
