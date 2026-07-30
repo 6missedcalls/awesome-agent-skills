@@ -48,6 +48,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Video Editing Skill**](#-video-editing-skill) | Trim, jump cut, caption (Hormozi/standard/minimal), text overlay, and speed change videos using FFmpeg + Whisper | 6 scripts | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/video-editing-skill) |
 | [**Revid Skill**](#-revid-skill) | Revid API V2 automation for AI video creation, rendering, publishing, and media workflows | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/revid-skill) |
+| [**RunAPI CLI Skill**](#-runapi-cli-skill) | Run AI image, video, music/audio, and LLM model jobs from agent workflows through RunAPI | CLI workflow | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/runapi-ai/cli-skill) |
 
 ### Presentations & Docs
 
@@ -145,6 +146,21 @@ Wraps the Revid.ai API into a clean script-first workflow. Handles render jobs, 
 REVID_API_KEY=... bash scripts/revid_api.sh render payloads/render.json
 REVID_API_KEY=... bash scripts/revid_api.sh status <project-id>
 ```
+
+---
+
+### 🤖 RunAPI CLI Skill
+
+> **RunAPI workflow automation** for image, video, music/audio, and model API jobs
+
+[![Repo](https://img.shields.io/badge/GitHub-runapi--cli--skill-181717?logo=github)](https://github.com/runapi-ai/cli-skill)
+
+Gives agents a compact workflow for creating and monitoring RunAPI jobs from the command line. Designed for AI media generation and model API tasks where the agent needs to submit a job, track status, and use the resulting output.
+
+**Key Capabilities:**
+- **Job Workflow** — Submit RunAPI jobs and monitor their progress from agent tasks
+- **Media Tasks** — Run image, video, music/audio, and related generation workflows
+- **Model APIs** — Use LLM and provider-specific RunAPI jobs without hand-writing API calls
 
 ---
 
