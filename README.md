@@ -4,7 +4,7 @@
 
 ### **Supercharge your AI coding agent with production-ready skills**
 
-[![Skills](https://img.shields.io/badge/skills-7-blueviolet?style=for-the-badge)](#skills)
+[![Skills](https://img.shields.io/badge/skills-8-blueviolet?style=for-the-badge)](#skills)
 [![Tools](https://img.shields.io/badge/total_tools-100+-brightgreen?style=for-the-badge)](#skills)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](#license)
 [![Platform](https://img.shields.io/badge/platform-Claude_Code_%7C_Codex_%7C_OpenClaw-orange?style=for-the-badge)](#compatibility)
@@ -61,6 +61,12 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Fireflies Skill**](#-fireflies-skill) | Search, summarize, and query Fireflies.ai meeting transcripts via GraphQL API | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/fireflies-skill) |
 | [**ERPNext Skill**](#-erpnext-skill) | Comprehensive Frappe Framework & ERPNext v15 development reference with full API docs across 14+ modules | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/erpnext-skill) |
+
+### Social & X/Twitter
+
+| Skill | Description | Tools | Links |
+|:------|:------------|:-----:|:-----:|
+| [**TweetClaw Skill**](#tweetclaw-skill) | OpenClaw plugin and Skill for X/Twitter research, media, monitoring, and approval-gated publishing | Plugin + Skill | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/Xquik-dev/tweetclaw) |
 
 ### Web & Protocols
 
@@ -218,6 +224,27 @@ Built for the emerging WebMCP standard (Chrome 146+). Instead of brittle CSS sel
 
 ---
 
+### TweetClaw Skill
+
+> **OpenClaw plugin and Skill** for reviewed X/Twitter workflows
+
+[![Repo](https://img.shields.io/badge/GitHub-tweetclaw-181717?logo=github)](https://github.com/Xquik-dev/tweetclaw)
+
+TweetClaw connects OpenClaw agents to Xquik for X/Twitter research, media,
+monitoring, and publishing. Sensitive actions require review before they run.
+
+**Key Capabilities:**
+- **Search & Discovery:** Search posts and replies, inspect profiles, and review timelines
+- **Audience & Media:** Export followers and prepare media for approved workflows
+- **Monitoring:** Track accounts and keywords, then deliver reviewed follow-up events
+- **Approval Gates:** Review private, recurring, and write actions before each call
+
+```bash
+openclaw plugins install clawhub:@xquik/tweetclaw
+```
+
+---
+
 ## Quick Start
 
 ### Claude Code
@@ -230,8 +257,8 @@ claude install-skill https://github.com/6missedcalls/<skill-name>
 ### OpenClaw
 
 ```bash
-# Install as an OpenClaw extension
-openclaw install https://github.com/6missedcalls/<skill-name>
+# Install into the default OpenClaw workspace
+git clone https://github.com/6missedcalls/<skill-name> ~/.openclaw/workspace/skills/<skill-name>
 ```
 
 ### Manual
@@ -261,7 +288,7 @@ Contributions welcome. If you'd like to add a skill to this list:
 
 ## License
 
-All skills in this collection are released under the [MIT License](LICENSE) unless otherwise noted.
+All skills in this collection are released under the MIT License unless otherwise noted.
 
 ---
 
@@ -272,3 +299,5 @@ All skills in this collection are released under the [MIT License](LICENSE) unle
 [![GitHub](https://img.shields.io/badge/GitHub-@6missedcalls-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/6missedcalls)
 
 </div>
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
