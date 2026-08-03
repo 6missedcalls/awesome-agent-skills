@@ -61,6 +61,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Fireflies Skill**](#-fireflies-skill) | Search, summarize, and query Fireflies.ai meeting transcripts via GraphQL API | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/fireflies-skill) |
 | [**ERPNext Skill**](#-erpnext-skill) | Comprehensive Frappe Framework & ERPNext v15 development reference with full API docs across 14+ modules | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/erpnext-skill) |
+| [**Suede Creator Skills**](#-suede-creator-skills) | Agent orchestration, Codex worker fleets, code review and ship gates, AI evaluation, product, design, and growth workflows | 67 skills | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/JasonColapietro/suede-creator-skills) |
 
 ### Web & Protocols
 
@@ -200,6 +201,16 @@ Gives your agent full context on the Frappe Framework — DocTypes, controllers,
 - **Core Framework** — Document API, Database API, Controllers, Hooks, REST API, Form Scripts, Testing
 - **14+ Modules** — Accounting, Stock/Inventory, Manufacturing, CRM, HR & Payroll, and more
 - **Patterns** — Common integration patterns, background job architecture, custom app scaffolding
+
+---
+
+### 🧰 Suede Creator Skills
+
+> **67 MIT-licensed skills** for Claude Code and Codex
+
+[![Repo](https://img.shields.io/badge/GitHub-suede--creator--skills-181717?logo=github)](https://github.com/JasonColapietro/suede-creator-skills)
+
+Provides reusable workflows for multi-agent orchestration, Codex worker fleets, code review and ship gates, AI evaluation, product, design, and growth work. Each capability is packaged as a public `SKILL.md` folder and can be installed as a full pack or selected individually.
 
 ---
 
