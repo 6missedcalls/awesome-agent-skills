@@ -4,7 +4,7 @@
 
 ### **Supercharge your AI coding agent with production-ready skills**
 
-[![Skills](https://img.shields.io/badge/skills-7-blueviolet?style=for-the-badge)](#skills)
+[![Skills](https://img.shields.io/badge/skills-8-blueviolet?style=for-the-badge)](#skills)
 [![Tools](https://img.shields.io/badge/total_tools-100+-brightgreen?style=for-the-badge)](#skills)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](#license)
 [![Platform](https://img.shields.io/badge/platform-Claude_Code_%7C_Codex_%7C_OpenClaw-orange?style=for-the-badge)](#compatibility)
@@ -48,6 +48,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Video Editing Skill**](#-video-editing-skill) | Trim, jump cut, caption (Hormozi/standard/minimal), text overlay, and speed change videos using FFmpeg + Whisper | 6 scripts | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/video-editing-skill) |
 | [**Revid Skill**](#-revid-skill) | Revid API V2 automation for AI video creation, rendering, publishing, and media workflows | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/revid-skill) |
+| [**OrkasVideoStudio**](#-orkasvideostudio) | Agent-native video production with skills for routing, composition, editing, generation, transcription, and delivery | 14 skills + MCP | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/Orkas-AI/Orkas-VideoStudio) |
 
 ### Presentations & Docs
 
@@ -144,6 +145,27 @@ Wraps the Revid.ai API into a clean script-first workflow. Handles render jobs, 
 ```bash
 REVID_API_KEY=... bash scripts/revid_api.sh render payloads/render.json
 REVID_API_KEY=... bash scripts/revid_api.sh status <project-id>
+```
+
+---
+
+### 🎬 OrkasVideoStudio
+
+> **14 installable skills plus an MCP server** for agent-native video production
+
+[![Repo](https://img.shields.io/badge/GitHub-Orkas--VideoStudio-181717?logo=github)](https://github.com/Orkas-AI/Orkas-VideoStudio)
+
+OrkasVideoStudio lets Codex, Claude Code, and other coding agents compose, edit, generate, transcribe, and assemble videos from editable `plan.json` timelines. The `video-router` skill classifies each brief as generation, deterministic composition, footage editing, or an end-to-end combination before production begins.
+
+**Key Capabilities:**
+- **Route** — Lock the primary production line before work starts
+- **Compose** — Build deterministic HTML motion graphics and overlays
+- **Edit** — Cut, reframe, caption, and process supplied footage
+- **Assemble** — Keep the full video plan editable, diffable, and re-renderable
+- **Integrate** — Use the TypeScript CLI or MCP server from coding-agent workflows
+
+```bash
+npx skills add Orkas-AI/Orkas-VideoStudio@video-router
 ```
 
 ---
