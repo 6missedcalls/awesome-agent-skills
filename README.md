@@ -63,6 +63,11 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 | [**ERPNext Skill**](#-erpnext-skill) | Comprehensive Frappe Framework & ERPNext v15 development reference with full API docs across 14+ modules | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/erpnext-skill) |
 
 ### Web & Protocols
+### API & Research
+
+| Skill | Description | Tools | Links |
+|:------|:------------|:-----:|:-----:|
+| [**AgentBody Skill**](https://github.com/agentbody/skills) | Unified API router for public LinkedIn, YouTube, TikTok, Reddit, Instagram, X, and Xiaohongshu data plus document parsing and text humanization | API router | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/agentbody/skills) |
 
 | Skill | Description | Tools | Links |
 |:------|:------------|:-----:|:-----:|
