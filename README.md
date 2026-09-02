@@ -48,6 +48,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Video Editing Skill**](#-video-editing-skill) | Trim, jump cut, caption (Hormozi/standard/minimal), text overlay, and speed change videos using FFmpeg + Whisper | 6 scripts | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/video-editing-skill) |
 | [**Revid Skill**](#-revid-skill) | Revid API V2 automation for AI video creation, rendering, publishing, and media workflows | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/revid-skill) |
+| [**BulkPublish Social Media Content Skills**](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) | Plan, adapt, review, schedule, and publish social media content through BulkPublish | 24 skills | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/azeemkafridi/bulkpublish-api) |
 
 ### Presentations & Docs
 
