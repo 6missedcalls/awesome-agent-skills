@@ -61,6 +61,7 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**Fireflies Skill**](#-fireflies-skill) | Search, summarize, and query Fireflies.ai meeting transcripts via GraphQL API | CLI wrapper | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/fireflies-skill) |
 | [**ERPNext Skill**](#-erpnext-skill) | Comprehensive Frappe Framework & ERPNext v15 development reference with full API docs across 14+ modules | Reference | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/erpnext-skill) |
+| [**Hyperconsciousness**](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) | Developer-alpha skill for finding local skills, PKM notes, encrypted knowledge and opaque credential capabilities | `hc` CLI | [Repository](https://github.com/louis030195/hyperconsciousness) |
 
 ### Web & Protocols
 
