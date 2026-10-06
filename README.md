@@ -68,6 +68,8 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 |:------|:------------|:-----:|:-----:|
 | [**WebMCP Skill**](#-webmcp-skill) | Interact with WebMCP-enabled websites via the W3C standard (Chrome 146+) — no DOM scraping, just structured JSON tools | Discovery + Invoke | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/6missedcalls/openclaw-webmcp-skill) |
 
+| **Publish with Shipvela** | Publish static websites through OAuth MCP, with owner approval, deployment status and build logs; account required | 11 MCP tools | [GitHub](https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish) |
+
 ---
 
 ## Skill Details
