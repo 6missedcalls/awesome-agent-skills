@@ -70,6 +70,19 @@ Think of them as **apps for your AI agent** — install one, and your agent gain
 
 ---
 
+### Developer Tools
+
+| Skill | Description | Tools | Links |
+|:------|:------------|:-----:|:-----:|
+| **Secret Leak Scan Lite** | Static scan for leaked credentials (AWS/GitHub/Slack/PEM), masked output only | 1 script | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/NenadZivotic/secret-leak-scan-lite) |
+| **SEO Quick Audit Lite** | Offline on-page SEO audit of a local HTML file — title, meta, OG, h1, alt | 1 script | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/NenadZivotic/lite-agent-skills/tree/main/seo-quick-audit-lite) |
+| **GitHub Repo Due Diligence Lite** | Repo health check: stars, last push age, license, archived flag | 1 script | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/NenadZivotic/lite-agent-skills/tree/main/github-repo-due-diligence-lite) |
+| **npm Package Health Lite** | Package publish age, deprecation flag, license — before you install | 1 script | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/NenadZivotic/lite-agent-skills/tree/main/npm-package-health-lite) |
+| **Meta-Prompt Architect Lite** | Task description to prompt template scaffold with {{variables}} | 1 script | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/NenadZivotic/lite-agent-skills/tree/main/meta-prompt-architect-lite) |
+| **Cold Email Sequence Lite** | ICP brief to 2-touch outreach skeleton with spam/subject checks | 1 script | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github&logoColor=white)](https://github.com/NenadZivotic/lite-agent-skills/tree/main/cold-email-sequence-lite) |
+
+---
+
 ## Skill Details
 
 ### 💰 Personal Finance Skill
